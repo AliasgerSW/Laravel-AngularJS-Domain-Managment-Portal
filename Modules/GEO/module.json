@@ -1,0 +1,16 @@
+{
+    "name": "GEO",
+    "alias": "geo",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\GEO\\Providers\\GEOServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

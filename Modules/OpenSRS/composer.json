@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/opensrs",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\OpenSRS\\Providers\\OpenSRSServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\OpenSRS\\": ""
+        }
+    }
+}
